@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"970x66_atlas_1", frames: [[0,0,1280,100],[0,102,1280,100],[0,204,1280,100],[0,306,1280,100],[0,408,1280,100],[0,510,1280,100],[0,612,1280,100],[0,714,1280,100],[0,816,1280,100]]}
+		{name:"970x66_atlas_1", frames: [[0,714,283,104],[0,0,1280,100],[285,714,283,104],[0,102,1280,100],[0,204,1280,100],[0,306,1280,100],[0,408,1280,100],[0,510,1280,100],[0,612,1280,100]]}
 ];
 
 
@@ -27,67 +27,136 @@ lib.ssMetadata = [
 
 
 
-(lib._1280x100 = function() {
+(lib._12 = function() {
 	this.initialize(ss["970x66_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.RogersandHolland_0000s_0000_9cdb952fa9a54dd189692d165925a3be = function() {
+(lib._1280x100 = function() {
 	this.initialize(ss["970x66_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.RogersandHolland_0000s_0000s_0000_ShopNow = function() {
+(lib._99 = function() {
 	this.initialize(ss["970x66_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.RogersandHolland_0000s_0000s_0001_Rectangle1 = function() {
+(lib.PIZZAHUT10_0001s_0000_VectorSmartObject = function() {
 	this.initialize(ss["970x66_atlas_1"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.RogersandHolland_0000s_0005_fallpromoHPHerodesktop = function() {
+(lib.PIZZAHUT10_0001s_0001_VectorSmartObject = function() {
 	this.initialize(ss["970x66_atlas_1"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.RogersandHolland_0001s_0001_ExactlyWhatYouNeed = function() {
+(lib.PIZZAHUT10_0001s_0003_Layer1copy = function() {
 	this.initialize(ss["970x66_atlas_1"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.RogersandHolland_0001s_0002_ThisHolidaySeasonLetUsHelpYouFind = function() {
+(lib.PIZZAHUT10_0001s_0004_Layer4 = function() {
 	this.initialize(ss["970x66_atlas_1"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.RogersandHolland_0001s_0004_Layer8 = function() {
+(lib.PIZZAHUT10_0001s_0006_VectorSmartObject = function() {
 	this.initialize(ss["970x66_atlas_1"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.RogersandHolland_0001s_0005_EndorsedbyCourtneyCroninESPNReporter = function() {
+(lib.PIZZAHUT10_0001s_0007_VectorSmartObject = function() {
 	this.initialize(ss["970x66_atlas_1"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
+
+
+(lib.Symbol6 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.PIZZAHUT10_0001s_0007_VectorSmartObject();
+	this.instance.setTransform(0,0,0.66,0.66);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(0,0,844.8,66);
+
+
+(lib.Symbol5 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.PIZZAHUT10_0001s_0001_VectorSmartObject();
+	this.instance.setTransform(0,0,0.66,0.66);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(0,0,844.8,66);
+
+
+(lib.Symbol4 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.PIZZAHUT10_0001s_0004_Layer4();
+	this.instance.setTransform(-4,0,0.66,0.66);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-4,0,844.8,66);
 
 
 (lib.Symbol3 = function(mode,startPosition,loop,reversed) {
@@ -102,15 +171,21 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.RogersandHolland_0001s_0001_ExactlyWhatYouNeed();
-	this.instance.setTransform(89,0,0.66,0.66);
+	this.instance = new lib.PIZZAHUT10_0001s_0003_Layer1copy();
+	this.instance.setTransform(-5,0,0.66,0.66);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+	this.instance_1 = new lib.PIZZAHUT10_0001s_0003_Layer1copy();
+	this.instance_1.setTransform(-5,0,0.66,0.66);
+
+	this.instance_2 = new lib.PIZZAHUT10_0001s_0003_Layer1copy();
+	this.instance_2.setTransform(-5,0,0.66,0.66);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_2},{t:this.instance_1},{t:this.instance}]}).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(89,0,844.8,66);
+p.nominalBounds = new cjs.Rectangle(-5,0,844.8,66);
 
 
 (lib.Symbol2 = function(mode,startPosition,loop,reversed) {
@@ -125,15 +200,15 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.RogersandHolland_0001s_0002_ThisHolidaySeasonLetUsHelpYouFind();
-	this.instance.setTransform(86,0,0.66,0.66);
+	this.instance = new lib._99();
+	this.instance.setTransform(8,31,0.3004,0.3007);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(86,0,844.8,66);
+p.nominalBounds = new cjs.Rectangle(8,31,85,31.299999999999997);
 
 
 (lib.Symbol1 = function(mode,startPosition,loop,reversed) {
@@ -148,18 +223,15 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.RogersandHolland_0000s_0000s_0000_ShopNow();
-	this.instance.setTransform(0,0,0.66,0.66);
+	this.instance = new lib._12();
+	this.instance.setTransform(9,32,0.2897,0.2901);
 
-	this.instance_1 = new lib.RogersandHolland_0000s_0000s_0001_Rectangle1();
-	this.instance_1.setTransform(0,0,0.66,0.66);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,0,844.8,66);
+p.nominalBounds = new cjs.Rectangle(9,32,82,30.200000000000003);
 
 
 // stage content:
@@ -174,57 +246,75 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	// Layer_4
-	this.instance = new lib.Symbol3("synched",0);
-	this.instance.setTransform(637.05,50.35,0.54,0.54,0,0,0,640.1,50);
-	this.instance.alpha = 0;
-	this.instance._off = true;
+	// Layer_6
+	this.instance = new lib.PIZZAHUT10_0001s_0006_VectorSmartObject();
+	this.instance.setTransform(93,0,0.66,0.66);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(21).to({_off:false},0).to({regX:640,scaleX:1,scaleY:1,x:640,y:50,alpha:1},21,cjs.Ease.cubicOut).wait(198));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(240));
 
-	// Layer_3
-	this.instance_1 = new lib.Symbol2("synched",0);
-	this.instance_1.setTransform(640,70,1,1,0,0,0,640,50);
-	this.instance_1.alpha = 0;
+	// Layer_9
+	this.instance_1 = new lib.PIZZAHUT10_0001s_0000_VectorSmartObject();
+	this.instance_1.setTransform(0,-10,0.7578,0.758);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).to({y:50,alpha:1},22,cjs.Ease.cubicOut).wait(218));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(240));
 
-	// Layer_2
-	this.instance_2 = new lib.Symbol1("synched",0);
-	this.instance_2.setTransform(160.05,52.95,0.1423,0.1423,0,0,0,197.1,69.9);
-	this.instance_2.alpha = 0;
+	// Layer_8
+	this.instance_2 = new lib.Symbol6("synched",0);
+	this.instance_2.setTransform(251.95,32,0.175,0.175,0,0,0,354,40);
 	this.instance_2._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(63).to({_off:false},0).to({regY:70,scaleX:1,scaleY:1,x:217.1,y:70,alpha:1},18,cjs.Ease.backOut).wait(159));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(43).to({_off:false},0).to({regX:354.1,scaleX:1,scaleY:1,x:354.1,y:40},16,cjs.Ease.backOut).wait(181));
 
-	// Layer_1
-	this.instance_3 = new lib.RogersandHolland_0001s_0005_EndorsedbyCourtneyCroninESPNReporter();
-	this.instance_3.setTransform(80,-18,0.7117,0.708);
+	// Layer_7
+	this.instance_3 = new lib.Symbol5("synched",0);
+	this.instance_3.setTransform(620,50,1,1,0,0,0,640,50);
+	this.instance_3.alpha = 0;
+	this.instance_3._off = true;
 
-	this.instance_4 = new lib.RogersandHolland_0001s_0004_Layer8();
-	this.instance_4.setTransform(121,1,0.6635,0.6599);
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(38).to({_off:false},0).to({x:640,alpha:1},14,cjs.Ease.quartOut).wait(188));
 
-	this.instance_5 = new lib.RogersandHolland_0000s_0000_9cdb952fa9a54dd189692d165925a3be();
-	this.instance_5.setTransform(20,0,0.6635,0.66);
+	// Layer_3
+	this.instance_4 = new lib.Symbol4("synched",0);
+	this.instance_4.setTransform(668,209,1,1,0,0,0,640,209);
+	this.instance_4.alpha = 0;
+	this.instance_4._off = true;
 
-	this.instance_6 = new lib.RogersandHolland_0000s_0005_fallpromoHPHerodesktop();
-	this.instance_6.setTransform(0,-6,0.7578,0.754);
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(13).to({_off:false},0).to({x:640,alpha:1},15,cjs.Ease.quartOut).wait(212));
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_6},{t:this.instance_5},{t:this.instance_4},{t:this.instance_3}]}).wait(240));
+	// Layer_4
+	this.instance_5 = new lib.Symbol3("synched",0);
+	this.instance_5.setTransform(640,77.95,1,0.1672,0,0,0,640,209.1);
+	this.instance_5._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(9).to({_off:false},0).to({regY:209,scaleY:1,y:209},14,cjs.Ease.backOut).wait(217));
 
 	// Layer_5
-	this.instance_7 = new lib._1280x100();
-	this.instance_7.setTransform(0,0,0.7578,0.758);
+	this.instance_6 = new lib.Symbol2("synched",0);
+	this.instance_6.setTransform(140.6,130.05,0.3567,0.3229,0,0.5876,0,266.4,319.1);
+	this.instance_6._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(240));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(6).to({_off:false},0).to({regX:265.9,scaleX:1,scaleY:1,skewX:0,x:265.9,y:319.1},14,cjs.Ease.backOut).wait(220));
+
+	// Layer_2
+	this.instance_7 = new lib.Symbol1("synched",0);
+	this.instance_7.setTransform(57.95,111.05,0.2237,0.2237,0,0,0,139.9,335.1);
+	this.instance_7._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(2).to({_off:false},0).to({scaleX:1,scaleY:1,x:139.9,y:335.1},15,cjs.Ease.backOut).wait(223));
+
+	// Layer_1
+	this.instance_8 = new lib._1280x100();
+	this.instance_8.setTransform(0,0,0.7578,0.758);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(240));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(485,15,506,71);
+p.nominalBounds = new cjs.Rectangle(465,23,505,52.8);
 // library properties:
 lib.properties = {
-	id: '06F1D1F36AC54C22982C70DBB030A240',
+	id: 'EE12753F3A3A43819C58C360EBDA5F36',
 	width: 970,
 	height: 66,
 	fps: 30,
@@ -269,7 +359,7 @@ an.bootstrapCallback=function(fnCallback) {
 };
 
 an.compositions = an.compositions || {};
-an.compositions['06F1D1F36AC54C22982C70DBB030A240'] = {
+an.compositions['EE12753F3A3A43819C58C360EBDA5F36'] = {
 	getStage: function() { return exportRoot.stage; },
 	getLibrary: function() { return lib; },
 	getSpriteSheet: function() { return ss; },
